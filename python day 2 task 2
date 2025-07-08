@@ -1,0 +1,9 @@
+# istifadeciden eded al
+eded = input("ededi daxil et :")
+# ededi tersine cevir
+ters = eded[::-1]
+# muqayise ele ve neticeni cap ele
+if eded == ters:
+    print("ededin terside ozune beraberdir.")
+else:
+    print("ededin tersi ferqlidir")

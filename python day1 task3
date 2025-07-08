@@ -1,0 +1,6 @@
+#Boş siyahı yarat. for döngüsü ilə 5 dəfə istifadəçidən meyvə adı soruş. Hər soruşduğun meyvəni siyahıya append() metodu ilə əlavə et. Sonunda bütün meyvələrin olduğu siyahını çap et.
+meyveler = []
+for i in range(5):
+    meyve = input("meyve daxil et: ")
+    meyveler.append(meyve) 
+    print("elave olunan meyveler", meyveler)

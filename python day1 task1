@@ -1,0 +1,5 @@
+#task1 - istifadeciden adi ve yasi sorus. onun nece ilden sonra 100 yasi olacagini yazdir.
+ad = input("adini daxil et: ")
+yas = int(input("yasini daxil et: "))
+qalib_il = 100 - yas
+print(f"{ad}, {qalib_il} ilden sonra 100 yasin olacag.")

@@ -1,0 +1,19 @@
+# Boş siyahı yaradılır
+ededler = []
+
+# istifadeciden 5 eded alinir
+for i in range(5):
+    eded = int(input(f"{i+1}-ci ededi daxil et: "))
+    ededler.append(eded)
+
+# em boyuk ve en kicik ededleri tapiriq
+en_boyuk = max(ededler)
+en_kicik = min(ededler)
+
+# Orta hesablanir
+ortalama = sum(ededler) / len(ededler)
+
+# neticeleri cap edirik
+print("en boyuk eded:", en_boyuk)
+print("en kicik eded:", en_kicik)
+print("orta qiymet:", ortalama)

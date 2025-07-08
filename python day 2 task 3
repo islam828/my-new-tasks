@@ -1,0 +1,8 @@
+# istifadeciden bir eded al
+eded = int(input("bir eded daxil et: "))
+# cut ve ya tek oldugunu yoxla
+if eded % 2 == 0:
+    print("bu eded cutdur")
+else:
+    print("bu eded tekdir")
+    

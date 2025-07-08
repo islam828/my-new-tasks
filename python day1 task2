@@ -1,0 +1,10 @@
+#isdifadeciden bal sorus eger bal 91-100 arasindadirsa ela, 71-90 arasi yaxsi, 51-70 arasi orta, 0-50 arasi kafi.
+bal = int(input("balini daxil et: "))
+if 91 <= bal <= 100:
+    print("ela")
+elif 71 <= bal <= 90:
+    print("yaxsi")
+elif 51 <= bal <= 70:
+    print("orta")
+elif 0 <= bal <= 50:
+    print("kafi") 

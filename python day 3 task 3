@@ -1,0 +1,10 @@
+try:
+    yas = int(input("yasinizi daxil edin:in "))
+    if yas < 0:
+        print("duzgun yas daxil et.")
+    elif yas < 65:
+        print("Sen gencsen.")
+    else:
+        print("sen ahilsan.")
+except ValueError:
+    print("duzgun yas daxil et.")

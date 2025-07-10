@@ -1,0 +1,10 @@
+# İstifADECIDEN EDED AL
+eded = input("Bir eded daxil et: ")
+
+# Reqemlerin cemini cap ele
+cem = 0
+for reqem in eded:
+    cem += int(reqem)
+
+# Neticeni cap ele
+print("reqemlerinn cemi:", cem)

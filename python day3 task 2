@@ -1,0 +1,12 @@
+cumle = input("Bir cümlə daxil et: ")
+
+# Cumleni sozlere ayiririq
+sozler = cumle.split()
+
+# her sozu tersine ceviririk
+ters_sozler = [soz[::-1] for soz in sozler]
+
+# tersine cevirilmis sozleri bosluqla birlesdirrik
+netice = " ".join(ters_sozler)
+
+print(netice)
